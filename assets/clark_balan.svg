@@ -4,24 +4,19 @@
     <rect fill="#1E1E1E" height="500" width="1500"/>
     <rect fill="#1E1E1E" height="500" width="1500"/>
     
-    <!-- Big diagonal rectangle, changed from red (#DF2525) to dark purple (#600A60) -->
-    <rect fill="#072b02" transform="rotate(-37 286 622)" height="759.9" width="1614.3" y="622" x="286"/>
+    <!-- Big diagonal rectangle, dark purple -->
+    <rect fill="#2a0040" transform="rotate(-37 286 622)" height="759.9" width="1614.3" y="622" x="286"/>
     
     <!-- Large white circle in the center -->
     <circle fill="#fff" r="183" cy="225" cx="750"/>
 
-    <!--
-      Removed the original 'white stroke text/graphics' paths here,
-      and replaced them with simple text elements below.
-    -->
-    <g font-family="sans-serif" font-size="35" fill="#07ac51">
+    <g font-family="sans-serif" font-size="35" fill="#b44edb">
       <text x="1150" y="200">ProsperityPirate.com</text>
       <text x="1150" y="250">DesertSun.Energy</text>
-      <text x="1150" y="300">HKTech.io</text>
-      <text x="1150" y="350">ClarkBalan.com</text>
+      <text x="1150" y="300">ClarkBalan.com</text>
     </g>
 
-    <!-- The bear illustration with code-block “sunglasses” -->
+    <!-- The bear illustration with code-block "sunglasses" -->
     <g transform="translate(549 -975) scale(1.34105)">
       <!-- Bear shapes -->
       <path class="bear__fur" d="M243 894c0 61-36 106-94 106-55 0-92-45-92-106s38-86 91-86 95 25 95 86z"/>
@@ -63,23 +58,21 @@
     <clipPath id="spec-right">
       <path d="M215 860c10 1 24 1 28 13 3 15 3 32-6 45-7 11-23 9-35 9-19-1-35-16-40-34-2-8-4-14-1-19 6-10 20-12 31-13l23-1z" fill="#333" id="path5557"/>
     </clipPath>
-    <!-- Updated strap colors here -->
     <style type="text/css" id="style5503">
       svg {
         --fur: #662900;
         --ear: #e4b89b;
-        /* Changed the cap straps from red (#f00 / #900) to dark purple */
-        --cap-strap--large: #370137; /* Darker purple */
-        --cap-strap--small: #460146; /* Even darker purple */
+        --cap-strap--large: #5a0080;
+        --cap-strap--small: #7a00b0;
         --cap: #0d0d0d;
         --dots: rgba(242,242,242,0.6);
         --frame: #000;
         --shine: rgba(242,242,242,0.35);
         --lens: #595959;
-        --code-one: rgba(128,230,25,0.5);
-        --code-two: rgba(229,230,25,0.5);
-        --code-three: rgba(116,0,58,0.5);
-        --code-four: rgba(25,195,230,0.5);
+        --code-one: rgba(160,50,230,0.5);
+        --code-two: rgba(200,100,255,0.5);
+        --code-three: rgba(90,0,128,0.5);
+        --code-four: rgba(180,78,219,0.5);
       }
       .code-block {
         -webkit-animation: read 1s infinite linear;
@@ -115,7 +108,7 @@
       }
     </style>
     
-    <!-- “Scrolling code” pattern used in the sunglasses lenses -->
+    <!-- "Scrolling code" pattern used in the sunglasses lenses -->
     <g class="code-block" id="code-block">
       <rect ry="0" y="862" x="60" height="7.5" width="74" id="rect5505"/>
       <rect ry="0" y="874" x="96" height="7.5" width="28" id="rect5507"/>
